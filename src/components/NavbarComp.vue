@@ -1,32 +1,82 @@
 <template>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar w/ text</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarText">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
-      </li>
-    </ul>
-    <span class="navbar-text">
-      Navbar text with an inline element
-    </span>
-  </div>
-</nav>
-</template>
-<script>
-export default {
-    
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <div class="container d-flex justify-content-between align-items-center">
+        <!-- Left Links -->
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              What we do 
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+  
+        <!-- Centered Logo -->
+        <a class="navbar-brand mx-auto" href="#">
+          <img src="https://zubayrlatief.github.io/Images-/logo/ALPHA.png" alt="Logo" class="navbar-logo" />
+        </a>
+  
+        <!-- Right Links -->
+        <ul class="navbar-nav">
+        
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              OUR MISSION
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </template>
+  
+  
+  <script lang="ts">
+  export default {
+    name: 'NavbarComp',
+  };
+  </script>
+  
+  <style scoped>
+.navbar{
+    background-color: #657179;
 }
-</script>
-<style scoped>
-    
+.navbar-logo {
+  height: 90px; /* Adjust the size of the logo */
+  display: block;
+}
+
+.navbar-brand {
+  text-align: center;
+  flex-shrink: 0; /* Prevent the logo from shrinking */
+}
+
+.nav-link{
+    font-size: 0.8rem;
+    color: black;
+}
 </style>
+
+  

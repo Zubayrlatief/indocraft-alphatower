@@ -10,7 +10,7 @@ import FooterComp from './components/FooterComp.vue';
 import NavbarComp from './components/NavbarComp.vue';
 
 export default{
-component: {
+components: {
   NavbarComp,
   FooterComp
 }
