@@ -15,7 +15,7 @@
               What we do 
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#"></a></li>
               <li><a class="dropdown-item" href="#">Another action</a></li>
               <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
@@ -64,7 +64,7 @@
     background-color: #657179;
 }
 .navbar-logo {
-  height: 90px; /* Adjust the size of the logo */
+  height: 60px; /* Adjust the size of the logo */
   display: block;
 }
 

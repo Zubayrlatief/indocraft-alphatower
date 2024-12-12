@@ -17,4 +17,8 @@ components: {
 };
 </script>
 <style>
+h1,h2,h3,h4,h5,h6,p,div{
+  font-family: 'Lexend Exa';
+  font-weight: 600;
+}
 </style>
